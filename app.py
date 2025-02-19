@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-# In-memory expense data (in a real application, you'd use a database)
+
 expenses = []
 
 @app.route('/')
